@@ -48,13 +48,13 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; }
 
 html, body { color: #242626; }
 html {
-  background: #D5DADD url(/wp-content/themes/cordobo-green-park-2/img/bg-html.jpg) top left repeat-x;
+  background: #D5DADD url(./img/bg-html.jpg) top left repeat-x;
   height: 100%;
   margin-bottom: 1px;
   overflow-y: scroll;
 }
 body {
-  background: url(/wp-content/themes/cordobo-green-park-2/img/bg-body.png) 50% 74px no-repeat;
+  background: url(./img/bg-body.png) 50% 74px no-repeat;
   *background-position: 50% 84px;
   font: 100.1%/1.5 "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", "Microsoft YaHei", sans-serif;
   font-smooth: always;
@@ -134,7 +134,7 @@ sub, sup { font-size: 0.7em; }
 /* Emphasize your name in the About-Box */
 .smaller-caps { font-size: 110%; font-variant: small-caps; }
 .hidden { display: none; }
-.top-link { background: transparent url(/wp-content/themes/cordobo-green-park-2/img/top-sprite.png) 0 5px no-repeat; padding-left: 12px; }
+.top-link { background: transparent url(./img/top-sprite.png) 0 5px no-repeat; padding-left: 12px; }
 .top-link:hover { background-position: 0 -29px; }
 
 
@@ -247,7 +247,7 @@ td#next { text-align: right; }
 
 #logo, #logo a { display: block; height: 38px; width: 130px; }
 #logo { position: absolute; top: 8px; left: 27px; }
-#logo a { background: transparent url(/wp-content/themes/cordobo-green-park-2/img/gnome-asia-logo.png) top left no-repeat; text-indent: -9999em; }
+#logo a { background: transparent url(./img/gnome-asia-logo.png) top left no-repeat; text-indent: -9999em; }
 .description { color: #868F98; display: block; left: 175px; position: absolute; top: 35px; }
 
 /* End EXAMPLE CODE image logo */
@@ -274,13 +274,13 @@ h1#logo { font-size: 30px; line-height: 1.2; margin: 0; }
 
 #accessibility li,
 #accessibility a { display: block; float: left; }
-#accessibility a { background: transparent url(/wp-content/themes/cordobo-green-park-2/img/navigation.png) right -200px no-repeat; padding: 0 7px 0 4px; }
+#accessibility a { background: transparent url(./img/navigation.png) right -200px no-repeat; padding: 0 7px 0 4px; }
 #accessibility .last-item a { background: none; padding-right: 0; }
 
 #nav { position: absolute; top: 75px; left: 0; width: 985px; }
 
 ul#menu {
-  background: #89CB11 url(/wp-content/themes/cordobo-green-park-2/img/navigation.png) top left repeat-x;
+  background: #89CB11 url(./img/navigation.png) top left repeat-x;
   display: block;
   height: 41px;
   padding: 0 28px 0 18px;
@@ -291,7 +291,7 @@ ul#menu {
 #menu a { display: block; float: left; }
 
 #menu a {
-  background: transparent url(/wp-content/themes/cordobo-green-park-2/img/navigation.png) left -150px no-repeat;
+  background: transparent url(./img/navigation.png) left -150px no-repeat;
   color: #fff;
   font-weight: bold;
   line-height: 40px;
@@ -312,12 +312,12 @@ ul#menu {
   text-shadow: 1px 1px 1px #000;
 }
 
-#submenu-bg { background: transparent url(/wp-content/themes/cordobo-green-park-2/img/bg-submenu.jpg) 0 3px repeat-x; height: 30px; width: 985px; }
+#submenu-bg { background: transparent url(./img/bg-submenu.jpg) 0 3px repeat-x; height: 30px; width: 985px; }
 ul#submenu { display: block; padding: 5px 21px 0; }
 #submenu li,
 #submenu a { display: block; float: left; }
 #submenu li { position: relative; }
-#submenu a { background: transparent url(/wp-content/themes/cordobo-green-park-2/img/navigation.png) left -197px no-repeat; color: #666; padding: 3px 5px 3px 7px; }
+#submenu a { background: transparent url(./img/navigation.png) left -197px no-repeat; color: #666; padding: 3px 5px 3px 7px; }
 #submenu .current_page_item a { color: #252525; }
 #submenu a:hover { color: #000; }
 
@@ -384,7 +384,7 @@ ul#submenu { display: block; padding: 5px 21px 0; }
 }
 #nav-search #s { border-color: #69ab01; border-bottom-color: #548301; border-right-color: #548301; }
 #searchsubmit {
-  background: #669900 url(/wp-content/themes/cordobo-green-park-2/img/button-style-input.png) center left repeat-x;
+  background: #669900 url(./img/button-style-input.png) center left repeat-x;
   border: 1px solid #666;
   color: #fff;
   font-size: 11px;
@@ -439,7 +439,7 @@ a.button-style {
 }
 
 a.button-style:hover {
-  background: #5388b6 url(/wp-content/themes/cordobo-green-park-2/img/button-style.png) center left repeat-x;
+  background: #5388b6 url(./img/button-style.png) center left repeat-x;
   border-color: #1b5a8d;
   color: #fff;
   text-shadow: 0 1px 0 #0f4570;
@@ -457,7 +457,7 @@ p strong, li strong { color: #2E2E2E; }
 
 .entry dl { }
 .entry dt { font-weight: bold; }
-.entry dd { background: transparent url(/wp-content/themes/cordobo-green-park-2/img/dl-arrow.gif) 0 4px no-repeat; padding: 0 0 4px 1em; }
+.entry dd { background: transparent url(./img/dl-arrow.gif) 0 4px no-repeat; padding: 0 0 4px 1em; }
 
 
 
@@ -562,7 +562,7 @@ li.pings {
 .pings:last-child { border-bottom: none; }
 
 .comment {
-  background: transparent url(/wp-content/themes/cordobo-green-park-2/img/bg-comment.png) 10px 19px no-repeat;
+  background: transparent url(./img/bg-comment.png) 10px 19px no-repeat;
   border-top: 28px solid #f9fbfc;
   border-left: 40px solid #f9fbfc;
 }
@@ -594,7 +594,7 @@ ul.children { }
   top: 20px;
 }
 .comment-meta a { color: #999; }
-.comment-author-admin { background-image: url(/wp-content/themes/cordobo-green-park-2/img/bg-comment-admin.png); }
+.comment-author-admin { background-image: url(./img/bg-comment-admin.png); }
 .comment-author-admin > .comment-body { background-color: #E6F0F2; }
 .comment p, .comment blockquote { padding: 0 0 7px; }
 .comment blockquote p, .comment blockquote blockquote, .comment blockquote blockquote p { margin: 5px; padding: 7px; }
@@ -681,7 +681,7 @@ textarea#comment:focus {
 }
 
 input#submit {
-  background: #5388b6 url(/wp-content/themes/cordobo-green-park-2/img/button-style.png) center left repeat-x;
+  background: #5388b6 url(./img/button-style.png) center left repeat-x;
   border: 1px solid #3b73a3;
   border-radius: 3px 3px;
   -moz-border-radius: 3px;
@@ -744,12 +744,12 @@ ul.sb-tools {
   line-height: 1.25em;
 }
 
-.twitter-icon { background: transparent url(/wp-content/themes/cordobo-green-park-2/img/twitter_48.png) 0 0 no-repeat; }
-.rss-icon { background: transparent url(/wp-content/themes/cordobo-green-park-2/img/rss-icon.png) center left no-repeat; }
+.twitter-icon { background: transparent url(./img/twitter_48.png) 0 0 no-repeat; }
+.rss-icon { background: transparent url(./img/rss-icon.png) center left no-repeat; }
 .sb-icon-text { padding: 3px 0 0; }
 
 .previous-post a, .next-post a {
-  background: transparent url(/wp-content/themes/cordobo-green-park-2/img/next-prev-sprite.png) right -195px no-repeat;
+  background: transparent url(./img/next-prev-sprite.png) right -195px no-repeat;
   display: block;
   line-height: 1.2;
   margin: 8px 0 0;
